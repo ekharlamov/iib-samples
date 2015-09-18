@@ -1,0 +1,48 @@
+{
+	"_comment":"Content from this URL https://ot4i.github.io/iib-samples/en/repo_metadata.json",
+	"managerUrl":"https://ot4i.github.io/iib-samples/en/repo_metadata.json",
+	"managerVersion": "1.0",
+	"downloadableForLocalInstall":"<Not available yet>",
+	"sampleCategories": 
+	[
+		{
+			"name":"Samples for IIB on Cloud",
+			"description":"Deploy IIB integrations in the cloud using samples",
+			"descriptionUrl":"https://ot4i.github.io/iib-samples/index.html",
+			"iibVersions": "",
+			"visible": "true",
+			"samples":
+			[
+				{
+		        		"name"          : "Manage customer registry with IIB REST services",
+		            	"version"		: "1.0",
+		            	"iibVersions"	: "10.*-11.*",
+		            	"shortDesc"     : "Deploy and run an IIB REST service based integration that allows you to manage customers using the REST API. The sample integration implements subflows using Mapping, Java Compute and ESQL compute nodes.",
+		            	"detailsURL"    : "https://ot4i.github.io/iib-samples/coming_soon.html",
+		            	"stepsURL"      : "https://ot4i.github.io/iib-samples/coming_soon.html",
+		            	"zipURL"        : "https://github.com/ekharlamov/rest-services-tutorial/releases/download/V1/CustomerDatabasePI_V1.zip",
+		            	"barFile"       : "https://github.com/ekharlamov/rest-services-tutorial/releases/download/V1/CustomerDatabaseV1.bar",
+		            	"visible"		: "true",
+		            	"tags"			: "cloud;service;http;rest;transformation",
+		            	"isPattern"		: "false",
+		            	"isTutorial"	: "false",
+		            	"isFavorite"	: "true",
+		            	"projects"		: "CustomerDatabaseV1:CustomerDatabaseJava:BARfiles",
+		            	"editorResPaths"   : [
+		            				{
+		            				"id" : "MainService",
+		            				"editor" : "restapi",
+		            				"wspath" : "<workspace>/CustomerDatabaseV1/restapi.descriptor"
+		            				}	
+		            				],
+			    		"deployedResources" : [
+									{
+										"type": "restapi",
+										"path": "CustomerDatabaseV1"
+									}
+							]
+				}
+			]
+		}
+	]
+}
