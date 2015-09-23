@@ -6,18 +6,18 @@
 	"sampleCategories": 
 	[
 		{
-			"name":"Samples for IIB on Cloud",
-			"description":"Deploy IIB integrations in the cloud using samples",
+			"name":"Samples for IBM Integration Bus on Cloud",
+			"description":"Deploy integrations to the IBM Integration Bus on Cloud using samples",
 			"descriptionUrl":"https://ot4i.github.io/iib-samples/index.html",
 			"iibVersions": "",
 			"visible": "true",
 			"samples":
 			[
 				{
-		        		"name"          : "Manage customer registry with IIB REST services",
+		        		"name"          : "Manage a customer registry with IBM Integration Bus REST services",
 		            	"version"		: "1.0",
 		            	"iibVersions"	: "10.*-11.*",
-		            	"shortDesc"     : "Deploy and run an IIB REST service based integration that allows you to manage customers using the REST API. The sample integration implements subflows using Mapping, Java Compute and ESQL compute nodes.",
+		            	"shortDesc"     : "Deploy and run a REST-service-based integration for  IBM Integration Bus so that you can manage customers by using the REST API. The sample integration implements subflows that use Mapping, JavaCompute and Compute nodes.",
 		            	"detailsURL"    : "https://ot4i.github.io/iib-samples/coming_soon.html",
 		            	"stepsURL"      : "https://ot4i.github.io/iib-samples/coming_soon.html",
 		            	"zipURL"        : "https://github.com/ekharlamov/rest-services-tutorial/releases/download/V1/CustomerDatabasePI_V1.zip",
