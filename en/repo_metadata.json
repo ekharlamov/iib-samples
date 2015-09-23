@@ -17,7 +17,7 @@
 		        		"name"          : "Manage a customer registry with IBM Integration Bus REST services",
 		            	"version"		: "1.0",
 		            	"iibVersions"	: "10.*-11.*",
-		            	"shortDesc"     : "Deploy and run a REST-service-based integration for  IBM Integration Bus so that you can manage customers by using the REST API. The sample integration implements subflows that use Mapping, JavaCompute and Compute nodes.",
+		            	"shortDesc"     : "Deploy and run a REST-service-based integration for IBM Integration Bus so that you can manage customers by using the REST API. The sample integration implements subflows that use Mapping, JavaCompute and Compute nodes.",
 		            	"detailsURL"    : "https://ot4i.github.io/iib-samples/coming_soon.html",
 		            	"stepsURL"      : "https://ot4i.github.io/iib-samples/coming_soon.html",
 		            	"zipURL"        : "https://github.com/ekharlamov/rest-services-tutorial/releases/download/V1/CustomerDatabasePI_V1.zip",
